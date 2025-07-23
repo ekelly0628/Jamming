@@ -1,0 +1,34 @@
+.results {
+  background: #0d1b2a;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 8px 8px 16px #0a1623, -8px -8px 16px #102c4d;
+  margin: 2rem;
+  color: white;
+}
+
+.track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(145deg, #0f2c4d, #0b1623);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px #0a1623, -4px -4px 8px #102c4d;
+}
+
+.button {
+  background-color: #c0c0c0;
+  color: #0d1b2a;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 2px 2px 4px #0a1623, -2px -2px 4px #102c4d;
+}
+
+.button:hover {
+  background-color: white;
+}

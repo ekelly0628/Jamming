@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(145deg, #0f2c4d, #0b1623);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 16px;
+  box-shadow: 6px 6px 12px #0a1623, -6px -6px 12px #102c4d;
+  color: white;
+}
+
+.albumArt {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.details {
+  flex-grow: 1;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
